@@ -1,0 +1,9 @@
+function menuShow(){
+    let menuMobile = document.querySelector('.menu-mobile');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src = "image/menu_white_36dp.svg";
+    } else {
+        menuMobile.classList.add('open');
+    }
+}
