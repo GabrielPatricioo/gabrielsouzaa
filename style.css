@@ -127,6 +127,10 @@ header{
     color: white;
 }
 
+textarea{
+    resize: none;
+}
+
 .contato button{
     border: none;
     background-color: #0187a7;
