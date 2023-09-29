@@ -2822,6 +2822,7 @@ form.contato1{
     #tema1{
         position: absolute;
         bottom: -189%;
+        width: 38%;
         height: 10%;
         padding-top: 0.5%;
     }
